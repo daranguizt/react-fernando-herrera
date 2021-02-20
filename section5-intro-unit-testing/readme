@@ -1,0 +1,26 @@
+//Pruebas unitarias y de integración
+
+Unitarias: enfocadas en pequeñas funcionalidades
+ej: llanta de automóvil 
+
+Integración: cómo reaccionan varias piezas en conjunto
+ej:  llantas + carrocería (o dirección)
+
+- deben ser fáciles de escribir, leer, confiables
+rápidas y principalmente unitarias.
+
+AAA 
+-Arrange
+-Act
+-Assert
+
+Arrange: preparar estado inicial
+- inicializar variables, importar
+
+Act: aplicar acciones o estímulos al sujeto
+- llamar métodos, simular clicks
+
+Assert: observar el comportamiento
+- resultados esperados 
+
+//Las pruebas estarán en la sección anterior
