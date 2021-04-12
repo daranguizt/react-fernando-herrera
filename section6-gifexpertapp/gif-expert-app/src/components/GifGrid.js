@@ -1,7 +1,7 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, {  Fragment } from "react";
 import { useFetchGifs } from "../hooks/useFetchGifs";
-import { getGifs } from "../helpers/getGifs";
 import GifGridItem from "./GifGridItem";
+import PropTypes from 'prop-types';
 
 const GifGrid = ({ category }) => {
   //   const [images, setImages] = useState([]);
@@ -27,3 +27,7 @@ const GifGrid = ({ category }) => {
 };
 
 export default GifGrid;
+
+GifGrid.propTypes = {
+  category: PropTypes.string.isRequired
+}
