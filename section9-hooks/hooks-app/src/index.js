@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 // import { CallbackHook } from './components/06-Memo/CallbackHook';
 // import { Padre } from "./components/07-tarea-memo/Padre";
 import { TodoApp } from "./components/08-useReducer/TodoApp";
+import { MainApp } from "./components/09-useContext/MainApp";
 // import HookApp from './HookApp';
 // import {CounterApp} from './components/01-useState/CounterApp';
 // import {CounterWithCustomHook} from './components/01-useState/CounterWithCustomHook';
@@ -15,4 +16,4 @@ import { TodoApp } from "./components/08-useReducer/TodoApp";
 // import { Memorize } from './components/06-Memo/Memorize';
 // import { MemoHook } from './components/06-Memo/MemoHook';
 
-ReactDOM.render(<TodoApp />, document.getElementById("root"));
+ReactDOM.render(<MainApp />, document.getElementById("root"));
