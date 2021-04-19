@@ -6,6 +6,8 @@
   font-size: 12px;
   padding: 7px 10px 7px 10px;
 
+  transition: color .5s ease;
+
   &:focus {
     outline: none;
   }
