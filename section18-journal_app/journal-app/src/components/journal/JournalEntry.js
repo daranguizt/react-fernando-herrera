@@ -26,7 +26,7 @@ export const JournalEntry = ({ id, title, body, date, url }) => {
           style={{
             backgroundSize: "cover",
             backgroundImage:
-              'url("https://s3-us-west-2.amazonaws.com/melingoimages/Images/91138.jpg")',
+              `url(${url})`,
           }}
         ></div>
       )}

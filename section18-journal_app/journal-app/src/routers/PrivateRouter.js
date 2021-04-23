@@ -7,7 +7,6 @@ export const PrivateRouter = ({
   component: Component,
   ...rest
 }) => {
-  console.log(rest);
   return (
     <Route
       {...rest}
