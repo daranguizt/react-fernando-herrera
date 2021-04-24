@@ -19,14 +19,16 @@ export const JournalEntry = ({ id, title, body, date, url }) => {
   };
 
   return (
-    <div className="journal__entry pointer" onClick={handleActiveNote}>
+    <div
+      className="journal__entry pointer animate__animated animate__fadeIn animate__faster"
+      onClick={handleActiveNote}
+    >
       {url && (
         <div
           className="journal__entry-picture"
           style={{
             backgroundSize: "cover",
-            backgroundImage:
-              `url(${url})`,
+            backgroundImage: `url(${url})`,
           }}
         ></div>
       )}

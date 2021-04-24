@@ -39,7 +39,7 @@ export const AppRouter = () => {
   }
 
   return (
-    <Router>
+    <Router >
       <Switch>
         <PublicRouter path="/auth" component={AuthRouter} isLoggedIn={isLoggedIn} />
         <PrivateRouter exact path="/" component={JournalScreen} isLoggedIn={isLoggedIn}/>
