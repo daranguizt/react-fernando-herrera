@@ -10,6 +10,7 @@ export const Sidebar = () => {
   const handleLogout = () => {
     dispatch(startLogout());
   };
+  
   const handleAddNew = () => {
     dispatch(startNewNote());
   };
