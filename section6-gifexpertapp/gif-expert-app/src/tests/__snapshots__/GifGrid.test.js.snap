@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on gifgrid should show and match snapshot 1`] = `
+<Fragment>
+  <h3
+    className="title"
+  >
+    test
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="results"
+  />
+</Fragment>
+`;
+
+exports[`tests on gifgrid should show items when images are loaded via useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="title"
+  >
+    test
+  </h3>
+  <div
+    className="results"
+  >
+    <GifGridItem
+      key="123"
+      title="test"
+      url="https://asd.net"
+    />
+  </div>
+</Fragment>
+`;
